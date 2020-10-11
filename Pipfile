@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "1.1.1"
+Flask-SQLAlchemy = "2.4.4"
+Flask-Alembic = "2.0.1"
+flask-boiler-api = {editable = true, path = "."}
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
